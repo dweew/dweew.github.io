@@ -26,7 +26,9 @@ background-color: #B8BEFF;
 
 .child2{
 	position: relative;
-	top: -65px;
+	top: 450px;
+	left: 40%;
+
 }
 
 /* https://dev.to/neshaz/how-to-make-your-css-consistent-across-browsers--2hff */
@@ -37,12 +39,13 @@ h1{
  vertical-align: middle;
  font-family: "Bungee Shade";
  color: #B8BEFF;
+  text-shadow: -8px 0 white, 0 8px white, 8px 0 white, 0 -8px white;
 }
 
 h2{
 	font-size: 25px;
 	text-align: center;
 	font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
-	color: #B8BEFF;
+	color:  #FFE1E9;
 
 }
