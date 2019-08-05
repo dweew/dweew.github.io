@@ -21,7 +21,7 @@ background-color: #B8BEFF;
   width: 1035.3px;
 	height: 141px;
 	/* background-color: black; */
-	top: -28px;
+	top: -70px;
 	margin: auto;
 
 	line-height: 141px;
@@ -30,10 +30,26 @@ background-color: #B8BEFF;
 
 	font-family: "Bungee Shade";
 	color: #B8BEFF;
+
+	
 }
 
+.child2{
+	position: relative;
+	top: -65px;
+
+	text-align: center;
+	font-family: comic sans ms;
+	color: #B8BEFF;
+
+}
 
 /* https://dev.to/neshaz/how-to-make-your-css-consistent-across-browsers--2hff */
 h1{
  font-size: 150px;
+}
+
+h2{
+	font-size: 25px;
+
 }
