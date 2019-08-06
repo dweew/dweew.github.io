@@ -16,7 +16,7 @@ background-color: #B8BEFF;
     border-width: 20px;
 }
 
-.child{
+.title{
 	position: relative;
   width: 1035.3px;
 	height: 141px;
@@ -24,13 +24,43 @@ background-color: #B8BEFF;
 	margin: auto;
 }
 
-.child2{
+.credits{
 	position: relative;
 	top: 450px;
 	left: 40%;
+}
+
+.container{
+	margin-left: 11.6%;
+	display: inline-block;
+	width: 1048.4px;
+	min-height: 128px;
+	height: auto;
+
+	font-size: 60px;
+	font-family: "Bungee Inline";
+
+	text-align: center;
+	color: #B8BEFF;
+	text-shadow: -2px 0 #8A8EC0, 0 2px #8A8EC0, 2px 0 #8A8EC0, 0 -2px #8A8EC0;
+}
+
+
+.images{
+	float: left;
+	width: 33.333%;
 
 }
 
+.about{
+	float: left;
+	width: 33.333%
+}
+
+.contact{
+	float: left;
+	width: 33.333%;
+}
 /* https://dev.to/neshaz/how-to-make-your-css-consistent-across-browsers--2hff */
 h1{
  font-size: 150px;
@@ -39,7 +69,7 @@ h1{
  vertical-align: middle;
  font-family: "Bungee Shade";
  color: #B8BEFF;
-  text-shadow: -8px 0 white, 0 8px white, 8px 0 white, 0 -8px white;
+  text-shadow: -3px 0 #8A8EC0, 0 3px #8A8EC0, 3px 0 #8A8EC0, 0 -3px #8A8EC0;
 }
 
 h2{
@@ -47,5 +77,22 @@ h2{
 	text-align: center;
 	font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
 	color:  #FFE1E9;
+}
 
+a:link{
+	color: #B8BEFF;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #B8BEFF;
+	ext-decoration: none;
+}
+
+a:hover{
+	color: white;
+}
+
+a:active{
+	color: #8A8EC0;
 }
