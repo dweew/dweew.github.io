@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<style>
+		h1,h2,h3 {
+			font-family: "Lucida Console", Monaco, monospace; 
+		}
+		
+		h1{
+			color: blue;
+			opacity: .70;
+		}
+		
+		h2 {
+			position: relative;
+			z-index: 1;
+			top: 28px;
+			opacity: 0.60;
+			color: blue;
+		}
+		
+		p {
+			margin: 0px 0px 8px 8px; 
+			padding-left: 8px;
+			line-height: 20px;
+			border-left: 2px solid #F5F3FE;
+			
+		}
+		
+		.solidLine{
+			border-bottom: 10px solid blue;
+			margin-bottom: 20px;
+			opacity: .05;
+		}
+		
+		.highlight {
+			width: 100%;
+			opacity: 0.45;
+			background-color: blue;
+			border: 1px solid blue;
+			border-radius: 2px;
+			
+			text-align: center;
+			color: white; 
+			<!--color: #F5F3FE;-->
+		}
+		
+		.space {
+			height: 30px;
+			width: 100%; 
+		}
+	</style>
+
+    <title>Events Content Type</title>
+  </head>
+  
+  <body> 
+	
+	<div class="container">
+		<h1 class="pt-4">Web Design: Events Content Type</h1>
+			<p>tools + Work In Progress + description
+			<a href="https://flickity.metafizzy.co/">Flickity</a>, Bootstrap, Dreamweaver </p>
+		<div class="space"></div>
+		<div class="row"> 
+			<div class="col">
+				<h2 class="pt-2">Objective</h2> 
+				<div class="solidLine"></div>
+						<p>Available for all VCU department sites </p>
+						<p>Departments can customize what events are displayed </p>
+			</div>
+			<div class="col">
+				<h2 class="pt-2">Requirements</h2> 
+				<div class="solidLine"></div>
+					 <p>Responsive; uses Bootstrap breakpoints </p>
+					 <p>Three variations: <a href="#slider">slider</a>, <a href="#listView">list</a>, <a href="#detailedView">detailed</a> </p>
+					 <p>Contrast must comply with accessibility standards</p>
+					 <p>Colors must comply VCU’s <a href="https://univrelations.vcu.edu/digital-guide/">digital style guide</a></p>
+			</div>
+		</div>
+
+		<h3 class="highlight mt-4 pt-1"><a name="slider">Slider View</a></h3> 
+			<div> 
+				<object type="text/html" data="SmallEvents/index.html" width="100%" height="340px" style="overflow:hidden;border:1px ridge white">
+			</object>
+			</div>
+		<h3 class="highlight mt-4 pt-1"><a name="listView">List View</a></h3>
+			<div> 
+				<object type="text/html" data="MediumEvents/index.html" width="100%" height="555px" style="overflow:auto;border:1px ridge white">
+			</object>
+			</div>
+		<h3 class="highlight pt-1"><a name="detailedView">Detailed View</a></h3>
+			<div> 
+				<object type="text/html" data="ExpandedEvents/index.html" width="100%" height="555px" style="overflow:auto;border:1px ridge white">
+			</object>
+			</div>
+	</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
+  
+  </body>
+</html>

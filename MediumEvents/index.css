@@ -1,0 +1,106 @@
+/* CSS Document */
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	h1 {text-align: left;}
+	.mainDivider {		margin: -16px 0px 23px; width: 100%;}
+	.divider {position: relative; border-bottom: 1px solid lightgray; margin: -1px 0px 19px; width: 100%; }
+}
+
+/* Medium devices (tablets, 768px and below)*/
+@media (max-width: 768px) {
+	h1 {text-align: center;}
+	.mainDivider {		margin: -16px 30px 23px;}
+	.divider { margin: -1px 30px 19px 30px; }
+}
+
+h1 {
+	margin: 30px 0px 30px 0px;
+}
+
+.mainDivider{
+		border-bottom: 3px solid goldenrod; 
+}
+
+.eventImage{
+	object-fit: cover;
+	margin-bottom: 16px;
+}
+
+.eventDetails{ 
+		height: auto;
+		max-width: 540px;
+}
+
+.title{
+		margin-bottom: 16px; 
+}
+
+.date{
+		color: gray;
+		font-size: 14px;
+		margin: 0px 0px 16px;
+	line-height: 1.6em;
+}
+
+.location{
+		color: gray;
+		font-size: 14px;
+		margin: 0px 0px 16px;
+}
+
+.dateMarker{
+	position: absolute;
+ width: 67px;
+	height: 36px;
+	background: white;
+	z-index: 1;
+	top: 11px;
+	left: 27px;
+	border-radius: 5%;
+	border: 1px solid white;
+}  
+
+.dateMarkerBorder{
+	position: relative;
+	top: 15%;
+	border: 1px solid lightgray;
+	border-radius: 5%;
+ height: 32px;
+ margin: -4px 1px 1px 1px;
+}
+
+.dateMarkerText{
+	position: relative;
+	text-align: center;
+	top: 3px;
+}
+
+.eventImageContainer{
+		margin-bottom: 16px;
+}
+
+.eventImage{
+		width: 100%;
+		display: block;
+		margin-left: auto;
+  margin-right: auto;
+		height: 150px;
+		background: lightblue;
+}
+
+.divider{
+ 	border-bottom: 1px solid lightgray;
+}
+
+a:link {
+ text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black; 
+}
+
+a:hover{
+	color:darkgoldenrod;
+}
