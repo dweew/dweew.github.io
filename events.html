@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 	<style>
-		h1,h2,h3 {
+		h1,h2,h3,.tool {
 			font-family: "Lucida Console", Monaco, monospace; 
 		}
 		
@@ -26,11 +26,18 @@
 		}
 		
 		p {
+			color: dimgray;
 			margin: 0px 0px 8px 8px; 
 			padding-left: 8px;
 			line-height: 20px;
 			border-left: 2px solid #F5F3FE;
 			
+		}
+		
+		
+		.tools{
+			color: blue;
+			opacity: 0.8;
 		}
 		
 		.solidLine{
@@ -55,6 +62,24 @@
 			height: 30px;
 			width: 100%; 
 		}
+		
+		a:link {
+			color: hsla(240, 100%, 50%, .7);
+			text-decoration: underline;
+		}
+
+		a:visited {
+			color: hsla(240, 100%, 50%, .7);
+		}
+
+		a:hover {
+			color: hsla(240, 100%, 50%, .8);
+			text-decoration: none;
+		}
+
+		a:active {
+			color: hsla(240, 100%, 50%, .7);
+		}
 	</style>
 
     <title>Events Content Type</title>
@@ -64,8 +89,9 @@
 	
 	<div class="container">
 		<h1 class="pt-4">Web Design: Events Content Type</h1>
-			<p>tools + Work In Progress + description
-			<a href="https://flickity.metafizzy.co/">Flickity</a>, Bootstrap, Dreamweaver </p>
+			<p class="tool">
+				<span class="tools">Tools:</span> <a href="https://flickity.metafizzy.co/">Flickity</a> + Bootstrap + Dreamweaver
+			</p>
 		<div class="space"></div>
 		<div class="row"> 
 			<div class="col">
