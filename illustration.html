@@ -16,6 +16,7 @@
 		h1{
 			color: blue;
 			opacity: .70;
+			margin-top:-25px;
 		}
 		
 
@@ -44,7 +45,7 @@
 		}
 		
 		.space {
-			height: 80px;
+			height: 15px;
 			width: 100%; 
 		}	
 	
@@ -83,12 +84,43 @@
 		clear: both; 
 	}
 
+		<!---->
+		ul.links {
+		  padding: 10px 0px 0px 0px;
+		  list-style: none;
+		  background-color: white;
+		  font-family: "Lucida Console", Monaco, monospace; 
+		}
+		
+		ul.links li {
+
+		  display: inline;
+		  font-size: 12px;
+
+		}
+		
+		ul.links li+li:before {
+		  padding: 8px;
+		  color: hsla(240, 100%, 50%, .5);
+		  content: "·\00a0";
+		}
+		
+		ul.links li a {
+		  padding: 10px 0px 20px 0px;
+		  color: hsla(240, 100%, 50%, .6);
+		  text-decoration: none;
+		}
+		
+	@media (max-width: 576px) {
+		h1,ul.links,p{
+			text-align: center;
+		}
+	}
 	
 	@media (min-width: 576px) {
 		.column {
 		width: 100%;
 		}
-		
 	}
 	
 		@media (min-width: 768px) {
@@ -107,8 +139,14 @@
   </head>
   <body>
  		<div class="container">
+			<ul class="links">
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="events.html">Events Content Type</a></li>
+			  <li style="color:dimgray">Illustration</li>	  
+			</ul>
 			<h1 class="pt-4 pb-2">Illustration</h1>
 			<p>
+			<div class="space"></div>
 				<span class="tools">Tools:</span> Illustrator + Photoshop
 			</p>
 

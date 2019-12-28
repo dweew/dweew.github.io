@@ -15,6 +15,7 @@
 		h1{
 			color: blue;
 			opacity: .70;
+			margin-top:-25px;
 		}
 		
 		h2 {
@@ -25,8 +26,10 @@
 			color: blue;
 		}
 		
+		
+
 		p {
-			color: dimgray;
+			color: black;
 			margin: 0px 0px 8px 8px; 
 			padding-left: 8px;
 			line-height: 20px;
@@ -63,23 +66,54 @@
 			width: 100%; 
 		}
 		
+		<!--link styling-->
 		a:link {
-			color: hsla(240, 100%, 50%, .7);
+
+			color: hsla(240, 100%, 50%, .6);
 			text-decoration: underline;
 		}
 
 		a:visited {
 			color: hsla(240, 100%, 50%, .7);
+			text-decoration: underline;
 		}
 
 		a:hover {
 			color: hsla(240, 100%, 50%, .8);
-			text-decoration: none;
+			text-decoration: underline;
 		}
 
 		a:active {
 			color: hsla(240, 100%, 50%, .7);
+			text-decoration: underline;
 		}
+		<!---->
+		ul.links {
+		  padding: 10px 0px 0px 0px;
+		  list-style: none;
+		  background-color: white;
+		  font-family: "Lucida Console", Monaco, monospace; 
+		}
+		
+		ul.links li {
+
+		  display: inline;
+		  font-size: 12px;
+
+		}
+		
+		ul.links li+li:before {
+		  padding: 8px;
+		  color: hsla(240, 100%, 50%, .5);
+		  content: "·\00a0";
+		}
+		
+		ul.links li a {
+		  padding: 10px 0px 20px 0px;
+		  color: hsla(240, 100%, 50%, .6);
+		  text-decoration: none;
+		}
+
 	</style>
 
     <title>Events Content Type</title>
@@ -88,11 +122,17 @@
   <body> 
 	
 	<div class="container">
+		<ul class="links">
+		  <li><a href="index.html">Home</a></li>
+		  <li style="color:dimgray">Events Content Type</li>
+		  <li><a href="illustration.html">Illustration</a></li>
+		</ul>
 		<h1 class="pt-4">Web Design: Events Content Type</h1>
-			<p class="tool">
-				<span class="tools">Tools:</span> <a href="https://flickity.metafizzy.co/">Flickity</a> + Bootstrap + Dreamweaver
-			</p>
 		<div class="space"></div>
+			<p class="tool">
+				<span class="tools">Tools:</span> <a href="https://flickity.metafizzy.co/" target="_blank">Flickity</a> + Bootstrap + Dreamweaver
+			</p>
+
 		<div class="row"> 
 			<div class="col">
 				<h2 class="pt-2">Objective</h2> 
@@ -106,7 +146,7 @@
 					 <p>Responsive; uses Bootstrap breakpoints </p>
 					 <p>Three variations: <a href="#slider">slider</a>, <a href="#listView">list</a>, <a href="#detailedView">detailed</a> </p>
 					 <p>Contrast must comply with accessibility standards</p>
-					 <p>Colors must comply VCU’s <a href="https://univrelations.vcu.edu/digital-guide/">digital style guide</a></p>
+					 <p>Colors must comply VCU’s <a href="https://univrelations.vcu.edu/digital-guide/" target="_blank">digital style guide</a></p>
 			</div>
 		</div>
 
