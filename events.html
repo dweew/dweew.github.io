@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 	<style>
-		h1,h2,h3,.tool {
+		h1,h2,h3,.tool, span {
 			font-family: "Lucida Console", Monaco, monospace; 
 		}
 		
@@ -34,6 +34,7 @@
 			padding-left: 8px;
 			line-height: 20px;
 			border-left: 2px solid #F5F3FE;
+			
 			
 		}
 		
@@ -68,23 +69,21 @@
 		
 		<!--link styling-->
 		a:link {
-
-			color: hsla(240, 100%, 50%, .6);
+			color: black !important;
 			text-decoration: underline;
 		}
 
 		a:visited {
-			color: hsla(240, 100%, 50%, .7);
-			text-decoration: underline;
+			color: hsla(240, 100%, 50%, .6);
 		}
 
 		a:hover {
-			color: hsla(240, 100%, 50%, .8);
-			text-decoration: underline;
+			color: hsla(240, 100%, 50%, .7);
+			text-decoration: none;
 		}
 
 		a:active {
-			color: hsla(240, 100%, 50%, .7);
+			color: black;
 			text-decoration: underline;
 		}
 		<!---->
@@ -113,6 +112,12 @@
 		  color: hsla(240, 100%, 50%, .6);
 		  text-decoration: none;
 		}
+		
+	@media (max-width: 576px) {
+		ul.links{
+			text-align: center;
+		}
+	}
 
 	</style>
 
@@ -132,13 +137,14 @@
 			<p class="tool">
 				<span class="tools">Tools:</span> <a href="https://flickity.metafizzy.co/" target="_blank">Flickity</a> + Bootstrap + Dreamweaver
 			</p>
+			<p><span class="tools">Currently a work in progress</span></p>
 
 		<div class="row"> 
 			<div class="col">
 				<h2 class="pt-2">Objective</h2> 
 				<div class="solidLine"></div>
-						<p>Available for all VCU department sites </p>
-						<p>Departments can customize what events are displayed </p>
+						<p>Create a content type that displays events</p>
+						<p>Events can be customized per department site via the t4 content management system</p>
 			</div>
 			<div class="col">
 				<h2 class="pt-2">Requirements</h2> 
@@ -146,7 +152,8 @@
 					 <p>Responsive; uses Bootstrap breakpoints </p>
 					 <p>Three variations: <a href="#slider">slider</a>, <a href="#listView">list</a>, <a href="#detailedView">detailed</a> </p>
 					 <p>Contrast must comply with accessibility standards</p>
-					 <p>Colors must comply VCU’s <a href="https://univrelations.vcu.edu/digital-guide/" target="_blank">digital style guide</a></p>
+					 <p>Colors must comply VCU’s <a class="genLink" href="https://univrelations.vcu.edu/digital-guide/" target="_blank">digital style guide</a></p>
+					 <p>Image and written content created by other employees</p>
 			</div>
 		</div>
 
