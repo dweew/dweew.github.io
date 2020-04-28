@@ -1,204 +1,90 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="utf-8">
+  <title>Sneha Mure</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<style> 
-		
-		body {
-			font-family: "Lucida Console", Monaco, monospace; 
-		}
-		
-		h1{
-			color: blue;
-			opacity: .70;
-			margin-top:-25px;
-		}
-		
+<body>
+  <div class="container">
+  <!-- Navigation -->
+    <div class="intro">
+      <a href="index.html">
+        <img class="intro-image" src="files/intro.svg" alt="Profile Picture">
+      </a>
+      <h1>Sneha Mure</h1>
+      <h3> Web Design/Development Assisstant</h3>
+      <div id="desktopLinks">
+        <a class="navDesktopLinks" href="files/mures_resume.pdf" target="blank">Resume<a>
+        <a class="navDesktopLinks" href="https://www.linkedin.com/in/sneha-mure-997433122/" target="blank">LinkedIn<a>
+        <a class="navDesktopLinks" href="mailto:mures@vcu.edu" target="blank">E-mail<a>
+      </div>
+    </div>
+      <div id="hamburger-container">
+        <div class="hamburger-menu">
+          <div class="bar top"></div>
+          <div class="bar middle"></div>
+          <div class="bar bottom"></div>
+        </div> <!-- hamburger -->
+      </div> <!--hamburger container-->
+      <div id="myLinks">
+        <a class="navLinks" href="files/mures_resume.pdf" target="blank">Resume<a>
+        <a class="navLinks" href="https://www.linkedin.com/in/sneha-mure-997433122/" target="blank">LinkedIn<a>
+        <a class="navLinks" href="mailto:mures@vcu.edu" target="blank">E-mail<a>
+      </div>
+      <a href="javascript:void(0);" id="hamburger-container" class="hamburger-menu bar" onclick="myFunction()"></a>
+  <!-- END Navigation -->
 
-		p {
-			margin: 0px 0px 24px 0px; 
-			padding-left: 8px;
-			line-height: 20px;
-			border-left: 2px solid #F5F3FE;
-			color: dimgrey;
-		}
-		
-		.tools{
-			color: blue;
-			opacity: 0.8;
-		}
-		
-		.highlight {
-			width: 100%;
-			opacity: 0.45;
-			background-color: blue;
-			border: 1px solid blue;
-			border-radius: 2px;
-			text-align: center;
-			color: white; 
-			<!--color: #F5F3FE;-->
-		}
-		
-		.space {
-			height: 15px;
-			width: 100%; 
-		}	
-	
-	img {
-	 width: 100%;
-	 border-radius: 5px;
-	}
-	
-	.park {	
-		
-		background-color: hsla(240, 100%, 50%, .05);
-	}
-	
-	* {
-	  box-sizing: border-box;
-	}
-	 
-	 .roww {
-		margin: 8px -16px;
-	 }
-	 
-	 .roww, .roww > .column {
-		padding: 8px;
-	}
-	
-	.column {
-		float: left;
+  <!-- PARKING: PROJECT ARTICLE -->
+      <div class="project-article">
+        <div class="project-article-title">
+          <h1 class="project-article-text">Illustration</h1>
+          <h3 style="font-size:20px">Illustrator &#183; Photoshop</h3>
+        </div>
+        <p class="project-article-text">This project served to re-design parts of the old VCU Freshman Parking page with the three main goals in mind:</p>
+          <ol>
+            <li>Re-create a banner for the header</li>
+            <li>Re-write the wordy web content to make it student friendly</li>
+            <li>Re-arrange content types to make it user friendly</li>
+          </ol>
+        <!--<div class="project-article-image-frame">
+          <img class="project-article-image" src="files/freshmanparking/992.png" alt="">
+        </div>-->
+        <!--START gallery 1-->
+        <div>
+            <img src="files/Illustration/intro.svg" class="gallery-img" alt="">
+            <img src="files/Illustration/bluecat.png" class="gallery-img gallery-img-float" alt="">
+            <img src="files/Illustration/dog.png" class="gallery-img" alt="">
+            <img src="files/Illustration/redcat.png" class="gallery-img gallery-img-float" alt="">
+            <img src="files/Illustration/grapefruit.png" class="gallery-img" alt="">
+        </div><!--gallery-->
+        <h1 class="project-article-text">Digital Painting</h1>
+        <!--START gallery 2-->
+        <div>
+            <img src="files/Illustration/femaleportrait.jpg" class="gallery-img" alt="">
+            <img src="files/Illustration/maleportrait.jpg" class="gallery-img gallery-img-float" alt="">
+        </div><!--gallery-->
 
-	}
-	
-	.roww:after {
-		content: "";
-		display: table;
-		clear: both; 
-	}
 
-		<!---->
-		ul.links {
-		  padding: 10px 0px 0px 0px;
-		  list-style: none;
-		  background-color: white;
-		  font-family: "Lucida Console", Monaco, monospace; 
-		}
-		
-		ul.links li {
+      </div><!--project-article-->
 
-		  display: inline;
-		  font-size: 12px;
-
-		}
-		
-		ul.links li+li:before {
-		  padding: 8px;
-		  color: hsla(240, 100%, 50%, .5);
-		  content: "·\00a0";
-		}
-		
-		ul.links li a {
-		  padding: 10px 0px 20px 0px;
-		  color: hsla(240, 100%, 50%, .6);
-		  text-decoration: none;
-		}
-		
-	@media (max-width: 576px) {
-		h1,ul.links,p{
-			text-align: center;
-		}
-		
-		.column {
-		width: 100%;
-		}
-	}
-	
-	@media (min-width: 576px) {
-		.column {
-		width: 100%;
-		}
-	}
-	
-		@media (min-width: 768px) {
-		.column {
-		width: 50%;
-	  }
-	}
-	
-	@media (min-width: 992px) {
-		.column {
-		width: 33.33%;
-		}
-	}
-	</style>
-    <title>Illustration</title>
-  </head>
-  <body>
- 		<div class="container">
-			<ul class="links">
-			  <li><a href="index.html">Home</a></li>
-			  <li><a href="events.html">Events Content Type</a></li>
-			  <li style="color:dimgray">Illustration</li>	  
-			</ul>
-			<h1 class="pt-4 pb-2">Illustration</h1>
-			<p>
-			<div class="space"></div>
-				<span class="tools">Tools:</span> Illustrator + Photoshop
-			</p>
-
-			<h2 class="highlight">Vector Art</h2>
-			<div class="roww">
-				<div class="column">
-					<img class="park" src="IMGs/intro.svg" alt="Dog Illustration">
-				</div>
-
-				<div class="column">
-					<img src="IMGs/blueCat.png" alt="Blue Cat Illustration">
-				</div>
-				<div class="column">
-					<img src="IMGs/redCat.png" alt="Red Cat Illustration">
-				</div>
-				<div class="column">
-					<img src="IMGs/dog.png" alt="Dog Illustration">
-				</div>
-				<!-- <div class="column">
-					<img class="park" src="IMGs/breadcat.gif" alt="Dog Illustration">
-				</div> -->
-				<div class="column">
-					<img class="park" src="IMGs/Grapefruit.jpg" alt="Dog Illustration">
-				</div>
-
-				<!--<div class="column">
-					<img class="park" src="IMGs/greenPark.png" alt="Red Cat Illustration">
-				</div>
-				<div class="column">
-					<img class="park" src="IMGs/pinkPark.png" alt="Dog Illustration">	
-				</div>-->
-			</div>
-			
-			<h2 class="highlight">Hobby: Digital Painting</h2>
-			<div class = "roww">
-				<div class = "column">
-					<img src="IMGs/malePortrait.jpg" alt="Blue Cat Illustration">
-				</div>
-				<div class="column">
-					<img src="IMGs/femalePortrait.jpg" alt="Red Cat Illustration">
-				</div>
-				<div class="column">
-					<img src="IMGs/bwPortrait.jpg" alt="Dog Illustration">
-				</div>
-			</div>
-		</div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
-  </body>
+  <!-- END PARKING: PROJECT ARTICLE -->
+  <!-- NAVIGATION JS -->
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+  <!-- END NAVIGATION JS -->
+  </div><!--container-->
+</body>
+<footer>
+</footer>
 </html>
