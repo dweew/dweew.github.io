@@ -265,7 +265,7 @@ a {
 }
 
 footer {
-  margin-top: 200px;
+  padding-top: 400px;
 }
 
 /*---parking/events/illustration.html STYLES---*/
@@ -294,6 +294,7 @@ h1.project-article-text, h3.project-article-text {
 p.project-article-text, ol {
   margin-top: 10px;
   margin-bottom: 10px;
+  line-height: 2;
 }
 
 a.project-article-links {
@@ -316,7 +317,10 @@ a.project-article-links:hover {
 .project-article-image{
   max-width: 100%;
   max-height: 100%;
-  margin: 100px 0px 0px 0px;
+  margin: 150px 0px 0px 0px;
 }
 
 /*---illustration.html STYLES---*/
+.gallery{
+  margin-bottom: 40px;
+}
